@@ -23,7 +23,7 @@ public class BitMasksSeq {
 
                 }
             }
-            System.out.println();
+
             result.add(arr);
         }
 
