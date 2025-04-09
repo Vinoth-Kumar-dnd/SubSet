@@ -9,7 +9,7 @@ public class BitMasksSeq {
 
         int[] nums = { 1, 2, 3 };
 
-        List<List<Integer>> seq = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
 
         for (int mask = 0; mask < (1 << nums.length); mask++) {
 
@@ -24,11 +24,11 @@ public class BitMasksSeq {
                 }
             }
             System.out.println();
-            seq.add(arr);
+            result.add(arr);
         }
 
-        for (int i = 0; i < seq.size(); i++) {
-            System.out.println(seq.get(i).toString());
+        for (int i = 0; i < result.size(); i++) {
+            System.out.println(result.get(i).toString());
         }
 
     }
